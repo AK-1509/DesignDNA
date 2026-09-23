@@ -1,0 +1,17 @@
+{
+  "name": "design-dna",
+  "owner": {
+    "name": "Adheesh Kale"
+  },
+  "metadata": {
+    "description": "design-dna: learn design systems from briefs, magazines, portfolios and reports; export to Figma and Claude Design."
+  },
+  "plugins": [
+    {
+      "name": "design-dna",
+      "source": "./",
+      "description": "Learns the visual language of design briefs, magazines, portfolios and reports, then distills it into a token-based design system for Claude Design and Figma.",
+      "version": "0.1.0"
+    }
+  ]
+}

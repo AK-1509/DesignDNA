@@ -1,0 +1,1009 @@
+{
+  "name": "Meridian",
+  "slug": "meridian",
+  "generated_at": "2026-09-23T17:09:55Z",
+  "color": {
+    "ramps": {
+      "brand": {
+        "50": "#FFF4F1",
+        "100": "#FFE7E0",
+        "200": "#FFCEC0",
+        "300": "#FFA78F",
+        "400": "#FF754F",
+        "500": "#E4572E",
+        "600": "#C03908",
+        "700": "#9C2A00",
+        "800": "#781E00",
+        "900": "#561200",
+        "950": "#360800"
+      },
+      "accent": {
+        "50": "#F2F7FF",
+        "100": "#E3EEFE",
+        "200": "#CEDCF1",
+        "300": "#B0C2DC",
+        "400": "#91A6C5",
+        "500": "#738BAC",
+        "600": "#577093",
+        "700": "#40597D",
+        "800": "#2A4366",
+        "900": "#1D3557",
+        "950": "#091A33"
+      },
+      "neutral": {
+        "50": "#FBFAF6",
+        "100": "#F5F2EC",
+        "200": "#E6E4DD",
+        "300": "#D3D1CA",
+        "400": "#A7A49E",
+        "500": "#7C7A74",
+        "600": "#605D58",
+        "700": "#4A4842",
+        "800": "#302E29",
+        "900": "#1D1C17",
+        "950": "#0F0E0C"
+      },
+      "success": {
+        "50": "#E8FEE5",
+        "100": "#D9F7D5",
+        "200": "#C0E8BA",
+        "300": "#9ED196",
+        "400": "#7BB673",
+        "500": "#5E9B56",
+        "600": "#457F3D",
+        "700": "#31672A",
+        "800": "#204F1A",
+        "900": "#12370D",
+        "950": "#072105"
+      },
+      "warning": {
+        "50": "#FFF6E6",
+        "100": "#FFEAC8",
+        "200": "#FBD596",
+        "300": "#E8B967",
+        "400": "#D3A249",
+        "500": "#AE8024",
+        "600": "#906603",
+        "700": "#745100",
+        "800": "#583D00",
+        "900": "#3E2A00",
+        "950": "#261800"
+      },
+      "danger": {
+        "50": "#FFF4F2",
+        "100": "#FFE6E3",
+        "200": "#FFCDC6",
+        "300": "#FFA69B",
+        "400": "#F67A6E",
+        "500": "#DC584E",
+        "600": "#CB473F",
+        "700": "#9E2220",
+        "800": "#7E0D0F",
+        "900": "#5D0004",
+        "950": "#3B0001"
+      },
+      "info": {
+        "50": "#F1F8FF",
+        "100": "#E0EFFF",
+        "200": "#C0DEFF",
+        "300": "#8FC6FF",
+        "400": "#50AAFF",
+        "500": "#0083E0",
+        "600": "#0071C3",
+        "700": "#005A9D",
+        "800": "#004478",
+        "900": "#002F56",
+        "950": "#001B36"
+      }
+    },
+    "anchors": {
+      "brand": 500,
+      "accent": 900,
+      "success": 500,
+      "warning": 400,
+      "danger": 600,
+      "info": 500
+    },
+    "base": {
+      "white": "#FFFFFF",
+      "black": "#000000",
+      "paper": "#F6F1E7",
+      "ink": "#1A1A1A",
+      "surface": "#FFFFFF"
+    },
+    "semantic": {
+      "light": {
+        "bg.canvas": "base.paper",
+        "bg.surface": "base.surface",
+        "bg.subtle": "neutral.100",
+        "bg.muted": "neutral.200",
+        "bg.inverse": "neutral.900",
+        "text.default": "base.ink",
+        "text.muted": "neutral.600",
+        "text.subtle": "neutral.500",
+        "text.inverse": "neutral.50",
+        "text.link": "brand.600",
+        "border.default": "neutral.200",
+        "border.strong": "neutral.400",
+        "border.focus": "brand.500",
+        "primary.default": "brand.500",
+        "primary.hover": "brand.600",
+        "primary.subtle": "brand.100",
+        "primary.on": "neutral.950",
+        "accent.default": "accent.900",
+        "accent.hover": "accent.950",
+        "accent.subtle": "accent.100",
+        "accent.on": "base.white",
+        "success.default": "success.600",
+        "success.subtle": "success.100",
+        "success.text": "success.700",
+        "warning.default": "warning.600",
+        "warning.subtle": "warning.100",
+        "warning.text": "warning.700",
+        "danger.default": "danger.600",
+        "danger.subtle": "danger.100",
+        "danger.text": "danger.700",
+        "info.default": "info.600",
+        "info.subtle": "info.100",
+        "info.text": "info.700"
+      },
+      "dark": {
+        "bg.canvas": "neutral.950",
+        "bg.surface": "neutral.900",
+        "bg.subtle": "neutral.800",
+        "bg.muted": "neutral.700",
+        "bg.inverse": "neutral.50",
+        "text.default": "base.paper",
+        "text.muted": "neutral.300",
+        "text.subtle": "neutral.400",
+        "text.inverse": "neutral.900",
+        "text.link": "brand.300",
+        "border.default": "neutral.800",
+        "border.strong": "neutral.600",
+        "border.focus": "brand.400",
+        "primary.default": "brand.500",
+        "primary.hover": "brand.400",
+        "primary.subtle": "brand.900",
+        "primary.on": "neutral.950",
+        "accent.default": "accent.400",
+        "accent.hover": "accent.300",
+        "accent.subtle": "accent.900",
+        "accent.on": "neutral.950",
+        "success.default": "success.400",
+        "success.subtle": "success.900",
+        "success.text": "success.200",
+        "warning.default": "warning.400",
+        "warning.subtle": "warning.900",
+        "warning.text": "warning.200",
+        "danger.default": "danger.400",
+        "danger.subtle": "danger.900",
+        "danger.text": "danger.200",
+        "info.default": "info.400",
+        "info.subtle": "info.900",
+        "info.text": "info.200"
+      }
+    },
+    "contrast": [
+      {
+        "mode": "light",
+        "fg": "text.default",
+        "bg": "bg.canvas",
+        "ratio": 15.46,
+        "target": 7.0,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "light",
+        "fg": "text.default",
+        "bg": "bg.surface",
+        "ratio": 17.4,
+        "target": 7.0,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "light",
+        "fg": "text.muted",
+        "bg": "bg.canvas",
+        "ratio": 5.82,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "light",
+        "fg": "text.subtle",
+        "bg": "bg.canvas",
+        "ratio": 3.81,
+        "target": 3.0,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "light",
+        "fg": "text.link",
+        "bg": "bg.canvas",
+        "ratio": 4.87,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "light",
+        "fg": "primary.on",
+        "bg": "primary.default",
+        "ratio": 5.24,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "light",
+        "fg": "accent.on",
+        "bg": "accent.default",
+        "ratio": 12.36,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "light",
+        "fg": "success.text",
+        "bg": "success.subtle",
+        "ratio": 5.87,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "light",
+        "fg": "warning.text",
+        "bg": "warning.subtle",
+        "ratio": 6.12,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "light",
+        "fg": "danger.text",
+        "bg": "danger.subtle",
+        "ratio": 6.54,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "light",
+        "fg": "info.text",
+        "bg": "info.subtle",
+        "ratio": 6.09,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "dark",
+        "fg": "text.default",
+        "bg": "bg.canvas",
+        "ratio": 17.14,
+        "target": 7.0,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "dark",
+        "fg": "text.default",
+        "bg": "bg.surface",
+        "ratio": 15.16,
+        "target": 7.0,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "dark",
+        "fg": "text.muted",
+        "bg": "bg.canvas",
+        "ratio": 12.63,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "dark",
+        "fg": "text.subtle",
+        "bg": "bg.canvas",
+        "ratio": 7.76,
+        "target": 3.0,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "dark",
+        "fg": "text.link",
+        "bg": "bg.canvas",
+        "ratio": 10.27,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "dark",
+        "fg": "primary.on",
+        "bg": "primary.default",
+        "ratio": 5.24,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "dark",
+        "fg": "accent.on",
+        "bg": "accent.default",
+        "ratio": 7.78,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "dark",
+        "fg": "success.text",
+        "bg": "success.subtle",
+        "ratio": 9.82,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "dark",
+        "fg": "warning.text",
+        "bg": "warning.subtle",
+        "ratio": 9.8,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "dark",
+        "fg": "danger.text",
+        "bg": "danger.subtle",
+        "ratio": 10.09,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      },
+      {
+        "mode": "dark",
+        "fg": "info.text",
+        "bg": "info.subtle",
+        "ratio": 9.82,
+        "target": 4.5,
+        "pass": true,
+        "aa": true
+      }
+    ],
+    "primary": "#E4572E",
+    "accent": "#1D3557",
+    "names": {
+      "primary": "orange-red",
+      "accent": "dark blue",
+      "paper": "warm off-white",
+      "ink": "near-black ink"
+    },
+    "accent_coverage": 0.4402,
+    "values": {
+      "light": {
+        "bg.canvas": "#F6F1E7",
+        "bg.surface": "#FFFFFF",
+        "bg.subtle": "#F5F2EC",
+        "bg.muted": "#E6E4DD",
+        "bg.inverse": "#1D1C17",
+        "text.default": "#1A1A1A",
+        "text.muted": "#605D58",
+        "text.subtle": "#7C7A74",
+        "text.inverse": "#FBFAF6",
+        "text.link": "#C03908",
+        "border.default": "#E6E4DD",
+        "border.strong": "#A7A49E",
+        "border.focus": "#E4572E",
+        "primary.default": "#E4572E",
+        "primary.hover": "#C03908",
+        "primary.subtle": "#FFE7E0",
+        "primary.on": "#0F0E0C",
+        "accent.default": "#1D3557",
+        "accent.hover": "#091A33",
+        "accent.subtle": "#E3EEFE",
+        "accent.on": "#FFFFFF",
+        "success.default": "#457F3D",
+        "success.subtle": "#D9F7D5",
+        "success.text": "#31672A",
+        "warning.default": "#906603",
+        "warning.subtle": "#FFEAC8",
+        "warning.text": "#745100",
+        "danger.default": "#CB473F",
+        "danger.subtle": "#FFE6E3",
+        "danger.text": "#9E2220",
+        "info.default": "#0071C3",
+        "info.subtle": "#E0EFFF",
+        "info.text": "#005A9D"
+      },
+      "dark": {
+        "bg.canvas": "#0F0E0C",
+        "bg.surface": "#1D1C17",
+        "bg.subtle": "#302E29",
+        "bg.muted": "#4A4842",
+        "bg.inverse": "#FBFAF6",
+        "text.default": "#F6F1E7",
+        "text.muted": "#D3D1CA",
+        "text.subtle": "#A7A49E",
+        "text.inverse": "#1D1C17",
+        "text.link": "#FFA78F",
+        "border.default": "#302E29",
+        "border.strong": "#605D58",
+        "border.focus": "#FF754F",
+        "primary.default": "#E4572E",
+        "primary.hover": "#FF754F",
+        "primary.subtle": "#561200",
+        "primary.on": "#0F0E0C",
+        "accent.default": "#91A6C5",
+        "accent.hover": "#B0C2DC",
+        "accent.subtle": "#1D3557",
+        "accent.on": "#0F0E0C",
+        "success.default": "#7BB673",
+        "success.subtle": "#12370D",
+        "success.text": "#C0E8BA",
+        "warning.default": "#D3A249",
+        "warning.subtle": "#3E2A00",
+        "warning.text": "#FBD596",
+        "danger.default": "#F67A6E",
+        "danger.subtle": "#5D0004",
+        "danger.text": "#FFCDC6",
+        "info.default": "#50AAFF",
+        "info.subtle": "#002F56",
+        "info.text": "#C0DEFF"
+      }
+    }
+  },
+  "typography": {
+    "families": {
+      "display": {
+        "name": "Playfair Display",
+        "category": "serif",
+        "substitute": null,
+        "web": "Playfair Display",
+        "stack": "\"Playfair Display\", Georgia, \"Times New Roman\", serif",
+        "figma": [
+          "Playfair Display",
+          "Inter"
+        ]
+      },
+      "body": {
+        "name": "Source Serif 4",
+        "category": "serif",
+        "substitute": null,
+        "web": "Source Serif 4",
+        "stack": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+        "figma": [
+          "Source Serif 4",
+          "Inter"
+        ]
+      },
+      "mono": {
+        "name": "JetBrains Mono",
+        "category": "mono",
+        "substitute": null,
+        "web": "JetBrains Mono",
+        "stack": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+        "figma": [
+          "JetBrains Mono",
+          "Inter"
+        ]
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "display": 700
+    },
+    "ratio": 1.618,
+    "base": 18,
+    "sizes": {
+      "xs": 11,
+      "sm": 13,
+      "base": 18,
+      "lg": 29,
+      "xl": 47,
+      "2xl": 76,
+      "3xl": 123
+    },
+    "line_height": {
+      "body": 1.65,
+      "display": 1.1,
+      "heading": 1.35
+    },
+    "tracking": {
+      "display": -0.01,
+      "heading": 0.0,
+      "body": 0.0,
+      "label": 0.08
+    },
+    "styles": [
+      {
+        "name": "display-xl",
+        "family": "display",
+        "size": "3xl",
+        "weight": "display",
+        "lh": "display",
+        "ls": "display",
+        "case": "ORIGINAL",
+        "px": 123,
+        "weight_value": 700,
+        "lh_value": 1.1,
+        "ls_value": -0.01,
+        "italic": false
+      },
+      {
+        "name": "display-lg",
+        "family": "display",
+        "size": "2xl",
+        "weight": "display",
+        "lh": "display",
+        "ls": "display",
+        "case": "ORIGINAL",
+        "px": 76,
+        "weight_value": 700,
+        "lh_value": 1.1,
+        "ls_value": -0.01,
+        "italic": false
+      },
+      {
+        "name": "heading-1",
+        "family": "display",
+        "size": "xl",
+        "weight": "display",
+        "lh": "heading",
+        "ls": "heading",
+        "case": "ORIGINAL",
+        "px": 47,
+        "weight_value": 700,
+        "lh_value": 1.35,
+        "ls_value": 0.0,
+        "italic": false
+      },
+      {
+        "name": "heading-2",
+        "family": "display",
+        "size": null,
+        "px": 37,
+        "weight": "display",
+        "lh": "heading",
+        "ls": "heading",
+        "case": "ORIGINAL",
+        "weight_value": 700,
+        "lh_value": 1.35,
+        "ls_value": 0.0,
+        "italic": false
+      },
+      {
+        "name": "heading-3",
+        "family": "display",
+        "size": "lg",
+        "weight": "semibold",
+        "lh": "heading",
+        "ls": "body",
+        "case": "ORIGINAL",
+        "px": 29,
+        "weight_value": 600,
+        "lh_value": 1.35,
+        "ls_value": 0.0,
+        "italic": false
+      },
+      {
+        "name": "body-lg",
+        "family": "body",
+        "size": "lg",
+        "weight": "regular",
+        "lh": "body",
+        "ls": "body",
+        "case": "ORIGINAL",
+        "px": 29,
+        "weight_value": 400,
+        "lh_value": 1.65,
+        "ls_value": 0.0,
+        "italic": false
+      },
+      {
+        "name": "body",
+        "family": "body",
+        "size": "base",
+        "weight": "regular",
+        "lh": "body",
+        "ls": "body",
+        "case": "ORIGINAL",
+        "px": 18,
+        "weight_value": 400,
+        "lh_value": 1.65,
+        "ls_value": 0.0,
+        "italic": false
+      },
+      {
+        "name": "body-sm",
+        "family": "body",
+        "size": "sm",
+        "weight": "regular",
+        "lh": "body",
+        "ls": "body",
+        "case": "ORIGINAL",
+        "px": 13,
+        "weight_value": 400,
+        "lh_value": 1.65,
+        "ls_value": 0.0,
+        "italic": false
+      },
+      {
+        "name": "label",
+        "family": "body",
+        "size": "sm",
+        "weight": "semibold",
+        "lh": "heading",
+        "ls": "label",
+        "case": "UPPER",
+        "px": 13,
+        "weight_value": 600,
+        "lh_value": 1.35,
+        "ls_value": 0.08,
+        "italic": false
+      },
+      {
+        "name": "caption",
+        "family": "body",
+        "size": "xs",
+        "weight": "regular",
+        "lh": "heading",
+        "ls": "body",
+        "case": "ORIGINAL",
+        "px": 11,
+        "weight_value": 400,
+        "lh_value": 1.35,
+        "ls_value": 0.0,
+        "italic": false
+      },
+      {
+        "name": "quote",
+        "family": "display",
+        "size": "xl",
+        "weight": "regular",
+        "lh": "heading",
+        "ls": "heading",
+        "case": "ORIGINAL",
+        "italic": true,
+        "px": 47,
+        "weight_value": 400,
+        "lh_value": 1.35,
+        "ls_value": 0.0
+      },
+      {
+        "name": "code",
+        "family": "mono",
+        "size": "sm",
+        "weight": "regular",
+        "lh": "body",
+        "ls": "body",
+        "case": "ORIGINAL",
+        "px": 13,
+        "weight_value": 400,
+        "lh_value": 1.65,
+        "ls_value": 0.0,
+        "italic": false
+      }
+    ],
+    "declared": [
+      {
+        "family": "Playfair Display",
+        "weight": 5.0,
+        "category": "serif",
+        "substitute": null,
+        "known": true
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": 5.0,
+        "category": "serif",
+        "substitute": null,
+        "known": true
+      }
+    ],
+    "print": {
+      "leading_body": 1.3689,
+      "leading_display": null,
+      "max_display_ratio": 2.6,
+      "measure_chars": 62.0,
+      "levels": [
+        2.449
+      ]
+    }
+  },
+  "space": {
+    "0": 0,
+    "0-5": 2,
+    "1": 4,
+    "1-5": 6,
+    "2": 8,
+    "3": 12,
+    "4": 16,
+    "5": 20,
+    "6": 24,
+    "8": 32,
+    "10": 40,
+    "12": 48,
+    "16": 64,
+    "20": 80,
+    "24": 96,
+    "32": 128
+  },
+  "layout": {
+    "density": "airy",
+    "section_gap": 128,
+    "stack_gap": 32,
+    "margin": 120,
+    "margin_mobile": 24,
+    "gutter": 44,
+    "measure": 68,
+    "max_width": 1200,
+    "columns": 12,
+    "print_columns": 2,
+    "imagery": "type-led",
+    "image_coverage": 0.0809,
+    "whitespace": 0.5526
+  },
+  "shape": {
+    "corners": "sharp",
+    "elevation": "flat",
+    "borders": "hairline",
+    "radius": {
+      "none": 0,
+      "sm": 0,
+      "md": 0,
+      "lg": 2,
+      "xl": 4,
+      "full": 9999,
+      "control": 0
+    },
+    "border_width": {
+      "hairline": 1,
+      "default": 1,
+      "strong": 2
+    }
+  },
+  "shadow": {
+    "sm": {
+      "x": 0,
+      "y": 1,
+      "blur": 2,
+      "spread": 0,
+      "color": "#1A1A1A",
+      "alpha": 0.05
+    },
+    "md": {
+      "x": 0,
+      "y": 4,
+      "blur": 12,
+      "spread": -2,
+      "color": "#1A1A1A",
+      "alpha": 0.06
+    },
+    "lg": {
+      "x": 0,
+      "y": 12,
+      "blur": 32,
+      "spread": -8,
+      "color": "#1A1A1A",
+      "alpha": 0.08
+    }
+  },
+  "motion": {
+    "duration": {
+      "fast": 144,
+      "base": 240,
+      "slow": 384
+    },
+    "easing": {
+      "standard": [
+        0.2,
+        0,
+        0,
+        1
+      ],
+      "enter": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exit": [
+        0.3,
+        0,
+        1,
+        1
+      ]
+    }
+  },
+  "corpus": {
+    "sources": 5,
+    "roles": {
+      "brief": 1,
+      "portfolio": 1,
+      "reference": 1,
+      "report": 1,
+      "magazine": 1
+    },
+    "observed": 2,
+    "items": [
+      {
+        "id": "11aa4f76a3a5",
+        "name": "meridian-brief.md",
+        "role": "brief",
+        "weight": 1.0,
+        "kind": "text",
+        "observed": true
+      },
+      {
+        "id": "171741f399fc",
+        "name": "studio-portfolio.png",
+        "role": "portfolio",
+        "weight": 1.0,
+        "kind": "image",
+        "observed": false
+      },
+      {
+        "id": "2de199308330",
+        "name": "pitch-deck.pptx",
+        "role": "reference",
+        "weight": 1.0,
+        "kind": "pptx",
+        "observed": false
+      },
+      {
+        "id": "91568655f8e1",
+        "name": "annual-report-2026.pdf",
+        "role": "report",
+        "weight": 1.0,
+        "kind": "pdf",
+        "observed": false
+      },
+      {
+        "id": "caa9f327fba5",
+        "name": "meridian-magazine-spring.pdf",
+        "role": "magazine",
+        "weight": 1.0,
+        "kind": "pdf",
+        "observed": true
+      }
+    ]
+  },
+  "confidence": {
+    "color": 0.9,
+    "typography": 0.75,
+    "layout": 0.75,
+    "qualitative": 0.4
+  },
+  "lock_conflicts": [],
+  "guidance": {
+    "principles": [
+      {
+        "text": "Make long reading comfortable on screen",
+        "sources": 1,
+        "origin": "observed"
+      },
+      {
+        "text": "Wide margins frame every spread",
+        "sources": 1,
+        "origin": "observed"
+      },
+      {
+        "text": "One accent color per spread",
+        "sources": 1,
+        "origin": "observed"
+      },
+      {
+        "text": "Let the canvas breathe: on average 55% of each page is left empty.",
+        "sources": null,
+        "origin": "metrics"
+      },
+      {
+        "text": "Color is structural, not decorative: ~44% of the corpus is chromatic.",
+        "sources": null,
+        "origin": "metrics"
+      },
+      {
+        "text": "Typography does the heavy lifting; imagery is occasional.",
+        "sources": null,
+        "origin": "metrics"
+      },
+      {
+        "text": "Hold body text to a ~68-character measure.",
+        "sources": null,
+        "origin": "metrics"
+      }
+    ],
+    "mood": [
+      "warm",
+      "confident",
+      "editorial",
+      "restrained"
+    ],
+    "voice": [
+      "precise",
+      "wry",
+      "warm"
+    ],
+    "phrases": [],
+    "dos": [
+      "Run photographs full bleed",
+      "Pair Playfair Display (display) with Source Serif 4 (text). Don't swap their roles."
+    ],
+    "donts": [
+      "No drop shadows",
+      "Don't introduce new hues. The palette is orange-red + dark blue + tinted neutrals."
+    ],
+    "imagery": [],
+    "components_seen": {
+      "pull quote": 1,
+      "kicker": 1,
+      "caption": 1
+    },
+    "briefs": [
+      {
+        "source": "11aa4f76a3a5",
+        "project": "Meridian Press rebrand",
+        "audience": "curious readers 25-55",
+        "goals": [
+          "Feel editorial and confident"
+        ]
+      }
+    ],
+    "summaries": [
+      {
+        "source": "11aa4f76a3a5",
+        "role": "brief",
+        "summary": "Rebrand brief for an essay publisher."
+      },
+      {
+        "source": "caa9f327fba5",
+        "role": "magazine",
+        "summary": "A restrained editorial magazine on warm paper."
+      }
+    ],
+    "typography_notes": [],
+    "color_notes": [],
+    "composition": [
+      "two-column text grid"
+    ]
+  },
+  "provenance": {
+    "color.primary": "brief lock",
+    "color.accent": "declared as accent/secondary in hex, theme",
+    "color.neutral": "learned neutral tint (hue 90°, chroma 0.009)",
+    "color.paper": "brief lock",
+    "color.ink": "learned ink color (near-black ink)",
+    "color.status": "success: learned (green #5E9B56); warning: learned (yellow #D3A249); danger: generated, chroma matched to primary; info: generated, chroma matched to primary",
+    "color.primary.light": "step 500 (anchor); text on it is near-black at 5.2:1 (white would be 3.7:1)",
+    "color.accent.light": "step 900 (anchor); text on it is white at 12.4:1",
+    "color.primary.dark": "step 500 (anchor); text on it is near-black at 5.2:1 (white would be 3.7:1)",
+    "color.accent.dark": "step 400 (anchor 900 shifted for AA); text on it is near-black at 7.8:1 (white would be 2.5:1)",
+    "font.display": "brief lock",
+    "font.body": "brief lock",
+    "font.mono": "default",
+    "font.scale": "learned: heading levels [2.449] fit 2.449 → golden ratio",
+    "font.base": "serif text face reads best at 18px on screen",
+    "layout.density": "visual review consensus",
+    "layout.margin": "learned: print margins ≈ 8.2% of page width",
+    "layout.measure": "learned: ~62 chars per body line in print",
+    "shape.corners": "visual review consensus",
+    "shape.elevation": "visual review consensus",
+    "shape.borders": "visual review consensus"
+  }
+}
